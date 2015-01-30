@@ -1,19 +1,23 @@
 {
-  "name": "example_theme",
-  "css": "http://api.ncla.me/themes/CleanLounge/inject.css",
-  "author": "birjolaxew",
-  "version": "1.0",
-  "title": "Example theme",
-  "description": "To showcase an example JSON structure - this should be a maximum of 140 characters long",
-  "bg": "http://i.cubeupload.com/g4ZWuo.jpg",
-  "options": {
-    "class1": {
-      "description": "If selected, .body.class1 will match body",
-      "checked": true
-    },
-    "class2": {
-      "description": "If selected, .body.class2 will match body",
-      "checked": false
-    }
-  }
+	"icon"			: "http://api.ncla.me/themes/CleanLounge/icon.png",
+	"bg"			: "http://i.cubeupload.com/g4ZWuo.jpg",
+	"css"			: "http://api.ncla.me/themes/CleanLounge/inject.css",
+
+	"name"			: "cleanlounge",
+	"author"		: "farblood",
+	"version"		: "1.0.2",
+	"title"			: "CleanLounge",
+	"description"	: "Very nice looking dark/light theme for CSGOLounge and DOTA2Lounge.",
+
+	"options"		: {
+		"ld-background-image": {
+			"description": "If selected, CSGOLounge and DOTA2Lounge will have background images.",
+			"checked": true
+		},
+
+		"ld-item-price-show": {
+			"description": "If selected, your item price (the one, that CSGL provides) will be shown only on hover.",
+			"checked": false
+		}
+	}
 }
