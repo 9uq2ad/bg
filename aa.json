@@ -1,0 +1,19 @@
+{
+  "name": "example_theme",
+  "css": "http://api.ncla.me/themes/CleanLounge/inject.css",
+  "author": "birjolaxew",
+  "version": "1.0",
+  "title": "Example theme",
+  "description": "To showcase an example JSON structure - this should be a maximum of 140 characters long",
+  "bg": "http://i.cubeupload.com/g4ZWuo.jpg",
+  "options": {
+    "class1": {
+      "description": "If selected, .body.class1 will match body",
+      "checked": true
+    },
+    "class2": {
+      "description": "If selected, .body.class2 will match body",
+      "checked": false
+    }
+  }
+}
